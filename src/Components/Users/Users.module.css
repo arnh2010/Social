@@ -1,0 +1,50 @@
+.name {
+    font-size:20px;
+    font-weight:bold;
+    font-family:monospace;
+}
+    
+.img {
+    height: 100px;
+    width: 100px;
+    border-radius: 35%;
+}
+
+.buttonFollow {
+    border-radius: 10%;
+    background-color: green ;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.buttonUnFollow {
+    border-radius: 10%;
+    background-color: red; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.pageNum {
+    font-size:20px;
+    font-weight:bold;
+    font-family:monospace;
+    padding: 3px;
+}
+ 
+.SelectPage {
+    font-size:30px;
+    font-weight:bold;
+    font-family:monospace;
+    padding: 3px;
+}
+

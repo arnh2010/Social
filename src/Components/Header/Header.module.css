@@ -1,0 +1,30 @@
+
+.header img {
+      padding: 4px;
+width: 75px; 
+border-radius: 25%;
+} 
+
+.Authorize{
+float: right;
+font-size:20px;
+font-weight:bold;
+font-family:monospace;
+} 
+
+.Authorize a{
+      color:black;
+      float: right;
+      font-size:20px;
+      font-weight:bold;
+      font-family:monospace;
+      text-decoration:none;      
+      } 
+      
+
+.Authorize img{
+      padding: 3px;
+      width: 50px;
+      border-radius: 25%;
+}
+      

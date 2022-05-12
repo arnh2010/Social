@@ -1,0 +1,55 @@
+.image img{
+    height: 200px; 
+    width:1000px; 
+    }
+
+.loader {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+    
+.DesriptionBlock{
+    padding: 10px;
+    display:grid;
+    width: 1200px;
+  grid-template-areas: 
+  "n n"
+  "d d"
+  "a j"
+  "a c"
+  ;
+  
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 1fr 1fr 10fr;
+    grid-gap: 20px;
+}
+
+.name{
+    grid-area: n;
+   text-align: center;
+   font-size: 30px;
+   font-weight:bold; 
+    font-family:cursive;
+ }
+
+ .description{
+    grid-area: d; 
+    font-size:20px;
+    font-weight:lighter;
+    font-family:cursive;
+}
+.avatar{
+    grid-area: a; 
+    height:200px;
+    border-radius: 20%;
+}
+
+.contacts{
+    grid-area: c; 
+}
+
+.job{
+    grid-area: j; 
+}

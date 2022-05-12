@@ -1,0 +1,34 @@
+.nav{
+  grid-area: n;
+  background-color: gainsboro; 
+  padding: 20px;
+}
+
+.item a {
+font-size:18px;
+font-weight:bold;
+font-style:normal;
+font-family: Merriweather ;
+text-decoration:none;
+
+color: dimgrey;
+}
+
+.item a:hover  {
+  font-size:18px;
+  font-weight:bold;
+  font-style:normal;
+  font-family: Merriweather ;
+  text-decoration:none;
+  
+  color: darkgray; /* Цвет ссылки при наведении на нее курсора мыши */  
+ }
+
+ 
+ .item .active {
+  font-size:18px;
+  font-weight:bold;
+  font-style:normal;
+  font-family: Merriweather ;
+  text-decoration:none;
+  color: darkslategrey;} 
